@@ -1,0 +1,12 @@
+Package: io.github.floofnamedrazor.FurryWallpapers
+Name: Furry Wallpapers
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Do you like furries Love the art of them? This is for you!
+Depiction: unknown
+Homepage: http://floofnamedrazor.github.io
+Maintainer: Razor The Foxxo <kfc676757@gmail.com>
+Depends: mobilesubstrate
+Author: Razor The Foxxo <kfc676757@gmail.com>
+Section: Themes
+Name: Furry Wallpapers 
