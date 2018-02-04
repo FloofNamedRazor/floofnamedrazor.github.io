@@ -1,16 +1,15 @@
-Package: io.github.floofnamedrazor.furrywallpapers
+Package: net.floofnamedrazor.furrywallpapers
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Razor The Foxxo<kfc676757@gmail.com>
-Filename: ./debs/Furry Wallpapers_iphoneos-arm.deb
+Filename: debs/Furry Wallpapers_iphoneos-arm.deb
 Size: 736
 MD5sum: cf80ce5175306da0b8b37cf2632ddcd7
 SHA1: b22acbaa8b4a37a93e600334952f17fa99e4bc31
 SHA256: 205e70b5ed9cd70fb889660578d4c9dfb702dc84e8ac37596a801f447b9d321f
 Section: Themes
-Homepage: http://floofnamedrazor.net
-Description: Love furries? Love the art? This is for you! 
+Homepage: http://floofnamedrazor.github.io/
+Description: Love furries? Love the art? This is for you!
 Author: Razor The Foxxo <kfc676757@gmail.com>
-Depiction: http://floofnamedrazor.github.io/
+Depiction: http://floofnamedrazor.github.io
 Name: Furry Wallpapers
-
