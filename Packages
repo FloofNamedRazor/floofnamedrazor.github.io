@@ -2,7 +2,7 @@ Package: io.github.floofnamedrazor.furrywallpapers
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer: Razor The Foxxo<kfc676757@gmail.com>
-Filename: ./Package.deb
+Filename: ./debs/Furry Wallpapers_iphoneos-arm.deb
 Size: 736
 MD5sum: cf80ce5175306da0b8b37cf2632ddcd7
 SHA1: b22acbaa8b4a37a93e600334952f17fa99e4bc31
