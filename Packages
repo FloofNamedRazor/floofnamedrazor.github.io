@@ -12,3 +12,19 @@ Name: Furry Wallpapers
 Author: Razor The Foxxo <kfc676757@gmail.com>
 Depiction: https://floofnamedrazor.github.io/depictions/?p=index.htm
 
+Package: com.floofnamedrazor.lowercasestatusbarclock
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.lowercasestatusbarclock_0.9.0_iphoneos-arm.deb
+Size: 2672
+MD5sum: 0edf61fb98e1e7c7b411a374dd5e8358
+SHA1: 02d7a8c39605b1b40e7dde3cfd8c53dada6d66c8
+SHA256: e938438a3be0f20e66d0f6eb58e43439a122dfbf8d667a8ed2c2cebc02e7200a
+Section: Tweaks
+Description: Makes the AM/PM lowercase!
+Author: Razor The Foxxo <kfc676757@gmail.com>
+Name: LowercaseStatusbarClock (iOS 10)
+Depiction: 
