@@ -35,3 +35,12 @@ Author: Razor The Foxxo <kfc676757@gmail.com>
 Name: LowercaseStatusbarClock (iOS 10)
 Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
 
+Package: com.floofnamedrazor.rofl
+Name: rofl
+Version: 0.0.1
+Architecture: iphoneos-arm
+Filename: debs/com.floofnamedrazor.rofl_0.0.1-5+debug_iphoneos-arm.deb
+Description: An awesome application!
+Maintainer: Razor
+Author: Razor
+Section: Utilities
