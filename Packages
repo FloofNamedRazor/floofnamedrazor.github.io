@@ -36,15 +36,22 @@ Name: LowercaseStatusbarClock (iOS 10)
 Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
 
 Package: com.floofnamedrazor.rofl
-Name: rofl
 Version: 0.0.1
-Size: 7596
 Architecture: iphoneos-arm
-Description: An awesome application!
-Maintainer: Razor <kfc676757@gmail.com>
-Author: Razor <kfc676757@gmail.com>
+Maintainer: Razor
+Installed-Size: 136
 Depends: mobilesubstrate
-Filename: ./debs/com.floofnamedrazor.rofl.iphoneos-arm.deb
-Section: Tweaks
+Filename: ./debs/Package: com.floofnamedrazor.rofl
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.lowercasestatusbarclock_0.9.0_iphoneos-arm.deb
+Size: 2672
 MD5sum: 4f26017f101a650235f2f03373afdc2c
-Depiction: https://floofnamedrazor.github.io/depictions/?p=com.floofnamedrazor.rofl/index.htm
+Section: Tweaks
+Description: An Awesome Application!
+Author: Razor <kfc676757@gmail.com>
+Name: rofl
+Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
