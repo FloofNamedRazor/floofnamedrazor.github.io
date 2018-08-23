@@ -44,7 +44,7 @@ Description: An awesome application!
 Maintainer: Razor <kfc676757@gmail.com>
 Author: Razor <kfc676757@gmail.com>
 Depends: mobilesubstrate
+Filename: ./debs/com.floofnamedrazor.rofl_0.0.1-5+debug_iphoneos-arm.deb
 Section: Tweaks
 MD5sum: 4f26017f101a650235f2f03373afdc2c
-Filename: ./debs/com.floofnamedrazor.rofl_0.0.1-5+debug_iphoneos-arm.deb
 Depiction: https://floofnamedrazor.github.io/depictions/?p=com.floofnamedrazor.rofl/index.htm
