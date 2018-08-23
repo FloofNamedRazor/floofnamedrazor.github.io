@@ -1,0 +1,77 @@
+Package: com.floofnamedrazor.furrywallpapers
+Version: 1.0
+Section: Tweaks
+Maintainer: Razor The Foxxo <kfc676757@gmail.com>
+Depends: mobilesubstrate, preferenceloader
+Architecture: iphoneos-arm
+Filename: debs/com.floofnamedrazor.furry-wallpapers_iphoneos-arm.deb
+Size: 78641
+SHA1: 36ce699095441f0bc2533b4d021b4c46807b4706
+Description: Furry Wallpapers :p
+Name: Furry Wallpapers
+Author: Razor The Foxxo <kfc676757@gmail.com>
+Depiction: https://floofnamedrazor.github.io/depictions/?p=index.htm
+
+Package: com.floofnamedrazor.lowercasestatusbarclock
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/Package: com.floofnamedrazor.lowercasestatusbarclock
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.sticktron.lowercasestatusbarclock_0.9.0_iphoneos-arm.deb
+Size: 2672
+MD5sum: 0edf61fb98e1e7c7b411a374dd5e8358
+SHA1: 02d7a8c39605b1b40e7dde3cfd8c53dada6d66c8
+SHA256: e938438a3be0f20e66d0f6eb58e43439a122dfbf8d667a8ed2c2cebc02e7200a
+Section: Tweaks
+Description: Makes the AM/PM lowercase!
+Author: Razor The Foxxo <kfc676757@gmail.com>
+Name: LowercaseStatusbarClock (iOS 10)
+Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
+
+Package: com.floofnamedrazor.rofl
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/Package: com.floofnamedrazor.rofl
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.floofnamedrazor.rofl.iphoneos-arm.deb
+Size: 2672
+MD5sum: 4f26017f101a650235f2f03373afdc2c
+Section: Tweaks
+Description: An Awesome Application!
+Author: Razor <kfc676757@gmail.com>
+Name: rofl
+Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
+
+Package: com.floofnamedrazor.ios9
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: Razor
+Installed-Size: 136
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor
+Depends: mobilesubstrate
+Filename: debs/com.slander.9b_0.0.1_iphoneos-arm.deb
+Size: 6204
+MD5sum: 19452d40943367709ce16e4da32578a8
+SHA256: ed37c808ed1764830048a7e7b9572e5d78f82f754ce5728871ad86baba7048a9
+Section: Tweaks
+Description: Turn iOS 10 to iOS 9
+Author: Razor <kfc676757@gmail.com>
+Name: 9inify
+Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
