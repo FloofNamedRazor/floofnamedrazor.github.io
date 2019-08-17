@@ -75,7 +75,7 @@ img:hover {
                         $(audio).on("loadedmetadata", function() {
                             lol = audio.duration;
                         });
-                        audio.src = `music/song${n}.mp3`;
+                        audio.src = `./mp3`;
                         setTimeout(() => {
                             setTimeout(() => {
                                 music(Math.round(Math.random() * 11));
