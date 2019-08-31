@@ -75,3 +75,23 @@ Description: Turn iOS 10 to iOS 9
 Author: Razor <kfc676757@gmail.com>
 Name: 9inify
 Depiction: https://floofnamedrazor.github.io/depictions/?p=/com.floofnamedrazor.rofl/index.htm
+
+Package: com.floofnamedrazor.lol
+Version: 0.0.1-1+debug
+Architecture: iphoneos-arm
+Maintainer: Razor_OwO
+Installed-Size: 172
+Depends: mobilesubstrate, firmware (>= 10.0)
+Version: 0.9.0
+Architecture: iphoneos-arm
+Maintainer: Razor_OwO
+Depends: mobilesubstrate
+Filename: debs/com.floofnamedrazor.lol_0.0.1-1+debug_iphoneos-arm.deb
+Size: 6204
+MD5sum: 3b716d0379dff9bec101b84294d05531
+SHA256: 24ee02f38c6b0a6039663bc3f62c976d70718b8de9e663c0a5e7bf3eb12862ff
+Section: Tweaks
+Description: Something random :p
+Author: Razor <kfc676757@gmail.com>
+Name: lol
+Depiction: https://floofnamedrazor.github.io/depictions/?p=/com.floofnamedrazor.rofl/index.htm
