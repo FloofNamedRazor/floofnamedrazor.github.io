@@ -1,0 +1,14 @@
+Package: com.floofnamedrazor.github.io
+Name: lol
+Version: 1.0 
+Architecture: iphoneos-arm 
+Description: Something random :P
+Maintainer: Evan <kfc676767@gmail.com> 
+Author: Evan <kfc676757@gmail.com> 
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/com.floofnamedrazor.lol_0.0.1-1+debug_iphoneos-arm.deb 
+Size: 14190
+MD5sum: 3b716d0379dff9bec101b84294d05531
+SHA1: 9907564d38511b0167398c55ab0e5734947467ac
+SHA256: 24ee02f38c6b0a6039663bc3f62c976d70718b8de9e663c0a5e7bf3eb12862ff
