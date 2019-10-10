@@ -1,97 +1,13 @@
-Package: com.floofnamedrazor.furrywallpapers
-Version: 1.0
-Section: Tweaks
-Maintainer: Razor The Foxxo <kfc676757@gmail.com>
-Depends: mobilesubstrate, preferenceloader
-Architecture: iphoneos-arm
-Filename: debs/com.floofnamedrazor.furry-wallpapers_iphoneos-arm.deb
-Size: 78641
-SHA1: 36ce699095441f0bc2533b4d021b4c46807b4706
-Description: Furry Wallpapers :p
-Name: Furry Wallpapers
-Author: Razor The Foxxo <kfc676757@gmail.com>
-Depiction: https://floofnamedrazor.github.io/depictions/?p=index.htm
-
-Package: com.floofnamedrazor.lowercasestatusbarclock
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Razor
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/Package: com.floofnamedrazor.lowercasestatusbarclock
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Razor
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/com.sticktron.lowercasestatusbarclock_0.9.0_iphoneos-arm.deb
-Size: 2672
-MD5sum: 0edf61fb98e1e7c7b411a374dd5e8358
-SHA1: 02d7a8c39605b1b40e7dde3cfd8c53dada6d66c8
-SHA256: e938438a3be0f20e66d0f6eb58e43439a122dfbf8d667a8ed2c2cebc02e7200a
-Section: Tweaks
-Description: Makes the AM/PM lowercase!
-Author: Razor The Foxxo <kfc676757@gmail.com>
-Name: LowercaseStatusbarClock (iOS 10)
-Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
-
-Package: com.floofnamedrazor.rofl
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Razor
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/Package: com.floofnamedrazor.rofl
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Razor
-Installed-Size: 136
-Depends: mobilesubstrate
-Filename: ./debs/com.floofnamedrazor.rofl.iphoneos-arm.deb
-Size: 2672
-MD5sum: 4f26017f101a650235f2f03373afdc2c
-Section: Tweaks
-Description: An Awesome Application!
-Author: Razor <kfc676757@gmail.com>
-Name: rofl
-Depiction: https://floofnamedrazor.github.io/depictions/?p=depicion.htm
-
-Package: com.floofnamedrazor.ios9
-Version: 0.0.1
-Architecture: iphoneos-arm
-Maintainer: Razor
-Installed-Size: 136
-Depends: mobilesubstrate, firmware (>= 10.0)
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Razor
-Depends: mobilesubstrate
-Filename: debs/com.slander.9b_0.0.1_iphoneos-arm.deb
-Size: 6204
-MD5sum: 19452d40943367709ce16e4da32578a8
-SHA256: ed37c808ed1764830048a7e7b9572e5d78f82f754ce5728871ad86baba7048a9
-Section: Tweaks
-Description: Turn iOS 10 to iOS 9
-Author: Razor <kfc676757@gmail.com>
-Name: 9inify
-Depiction: https://floofnamedrazor.github.io/depictions/?p=/com.floofnamedrazor.rofl/index.htm
-
-Package: com.floofnamedrazor.lol
-Version: 0.0.1-1+debug
-Architecture: iphoneos-arm
-Maintainer: Razor_OwO
-Installed-Size: 172
-Depends: mobilesubstrate, firmware (>= 10.0)
-Version: 0.9.0
-Architecture: iphoneos-arm
-Maintainer: Razor_OwO
-Depends: mobilesubstrate
-Filename: debs/com.floofnamedrazor.lol_0.0.1-1+debug_iphoneos-arm.deb
-Size: 6204
-MD5sum: 3b716d0379dff9bec101b84294d05531
-SHA256: 24ee02f38c6b0a6039663bc3f62c976d70718b8de9e663c0a5e7bf3eb12862ff
-Section: Tweaks
-Description: Something random :p
-Author: Razor <kfc676757@gmail.com>
+Package: com.floofnamedrazor.github.io
 Name: lol
-Depiction: https://floofnamedrazor.github.io/depictions/?p=/com.floofnamedrazor.rofl/index.htm
+Version: 1.0 
+Architecture: iphoneos-arm 
+Description: Something random :P
+Maintainer: Evan <kfc676767@gmail.com> 
+Author: Evan <kfc676757@gmail.com> 
+Section: Tweaks
+Depends: mobilesubstrate
+Filename: debs/xyz.bigbadevan.pwnrespring_iphoneos-arm_1.0.deb Size: 14190
+MD5sum: 3b716d0379dff9bec101b84294d05531
+SHA1: 9907564d38511b0167398c55ab0e5734947467ac
+SHA256: 24ee02f38c6b0a6039663bc3f62c976d70718b8de9e663c0a5e7bf3eb12862ff
