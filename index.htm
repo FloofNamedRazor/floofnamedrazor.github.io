@@ -23,6 +23,44 @@
     <body style="background-color:#1f1f1f;">
 </body>
 
+        </script>
+            <script>
+            // if you take anything important make sure to give creds ;) -- Creds to Lemons :)
+            var modal = document.getElementById('myModal');
+            var btn = document.getElementById("myBtn");
+ 
+            window.onclick = function() {
+                if (modal.style.display !== "none") {
+                    modal.style.display = "none";
+                }
+                change();
+            }
+ 
+            window.onload = function() {
+                modal.style.display = "block";
+                document.getElementsByClassName('modal-content')[0].style.width = (document.getElementById("node").width + 40) + 'px'; // Sh0T wanted to fix it ._.
+                function music(n) {
+                    song.innerHTML = `<iframe style="display: none;"  src="/videos/music.mp4" allow="autoplay"></iframe>`; // Browser audio bypass coded by Lemons
+                    setTimeout(() => {
+                        var audio = new Audio();
+                        $(audio).on("loadedmetadata", function() {
+                            lol = audio.duration;
+                        });
+                        audio.src = `./videos/music.mp4`;
+                        setTimeout(() => {
+                            setTimeout(() => {
+                                music(Math.round(Math.random() * 11));
+                            }, (lol * 1e3) - 10e3);
+                        }, 5000);
+                    }, 5000);
+                }
+                music(Math.round(Math.random() * 11));
+            }
+        </script>
+
+
+
+
   <br>
   <br>
   <center> <font color=white> im lazy to update this site, lol in the meantime follow my twitter
