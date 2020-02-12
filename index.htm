@@ -1,36 +1,18 @@
-<Script LANGUAGE="JavaScript">
+<script language="JavaScript">
 <!-- 
-var Message = "- OwO What's this? -";
-
-var Leftspace = "    ";
-var Rightspace = "    ";
-
-var message1 = Leftspace + Message + Rightspace;
-var dir = "left";
-var speed = "50";
-
-function bounce(){
-
-	if (dir == "left"){
-
-		var message2 = message1.substring(2,message1.length) + "  ";
-		document.title = message2;
-		setTimeout("bounce()", speed);
-		message1 = message2;
-		if (message1.substring(0,1) == "-") dir="right";
-	}
-
-	else{
-
-		message2 = "  " + message1.substring(0,message1.length-2);
-		document.title = message2;
-		setTimeout("bounce()", speed);
-		message1 = message2;
-		if (message1.substring(message1.length-1,message1.length) == "-") dir="left";
-	}
-
+var space = " ";
+var speed = "200";
+var pos = 0;
+var msg = "OwO Whats this ";
+function Scroll()
+{
+document.title = msg.substring(pos, msg.length) + space + msg.substring(0,pos);
+pos++;
+if (pos > msg.length) pos = 0;
+window.setTimeout("Scroll()", speed);
 }
-
-bounce();
-// -->
-</Script>
+Scroll();
+-->
+</script>
+<br>
+<br>
