@@ -33,7 +33,7 @@ module.exports = {
 
 
 //Name generator
-var namesExample = ["Ben Dover","Eileen Dover","Not in ur class","Stephanie","Sportacus","Robbie Rotten","Ziggy","L0kesh;)","RealPerson.mp4","ur search history","Cael Cooper:)","Kim-Jong Uno","Sernie Banders","lorcant","Not A Bot","setup.exe","admin1","Mack attack","mr moo moo man","boris","pacothetaco","orman","herobine","chuck joris","nerd3","watergaminghd","marijona","SmashKahoot","Kahoot smasher"];
+var namesExample = ["darkgamer204","razorthefox","Not in ur class","Protogen","Femboy","Furry","OwO","UwU","RealPerson.mp4","ur search history","Gamer","Uno","Sernie Banders","NotAFurry","Not A Bot","setup.exe","admin","joe mama","Sigma","boris","Zenith","aww man","herobine","jasonafex","Ligma","watergaminghd","keith","Kahooter","coolguy900"];
 function randomCaps(baseName) {
     var newName = "";
     console.log(baseName)
