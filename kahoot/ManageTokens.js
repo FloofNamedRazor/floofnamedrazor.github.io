@@ -1,6 +1,6 @@
 var https = require('https');
 
-var smasherBot = require('./smasherBot');
+var smasherBot = require('./kahoot/smasherBot');
 var atob = require('atob');
 
 var toDecode ="";
