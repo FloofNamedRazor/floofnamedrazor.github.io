@@ -1,5 +1,5 @@
 var http = require('http');
-var getToken = require('./ManageTokens');
+var getToken = require('./kahoot/ManageTokens');
 var kahootId = undefined;
 
 http.createServer(function (request, response) {
