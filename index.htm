@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+	
 <head>
     <meta charset="UTF-8">
 	<title>OwO What’s this?</title>
@@ -19,61 +19,144 @@
     <meta property="og:title" content="Discord">
     <meta property="og:url" content="https://floofnamedrazor.github.io/">
     <meta property="og:description" content="This site is terrible!">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-base64.css" />
+    <link rel="stylesheet" type="text/css" href="css/video.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
   
-    <body style="background-color:#000000;">
-<style>
-body{
-    background-image: url('http://i.stack.imgur.com/kx8MT.gif');
-    background-size: cover;
-    
-    
-    width: 100;
-    height: 100vh;
-    padding:0;
-    margin:0;
-}
-</style>
-	   
-	
-            <script>
-            // if you take anything important make sure to give creds ;) -- Creds to Lemons :)
-            var modal = document.getElementById('myModal');
-            var btn = document.getElementById("myBtn");
- 
-            window.onclick = function() {
-                if (modal.style.display !== "none") {
-                    modal.style.display = "none";
-                }
-                change();
+        <script>
+            function loadClick() {
+                var c = document.getElementById("click-cover");
+                c.style.display = "block"
+                var op = parseInt(window.getComputedStyle(c).getPropertyValue("opacity"));
+                var timer = setInterval(function () {
+                    if (op < 1){
+                        op += 0.01
+                        c.style.opacity = op;
+                    } else {
+                        clearInterval(timer);
+                    }
+                }, 25);
             }
- 
-            window.onload = function() {
-                modal.style.display = "block";
-                document.getElementsByClassName('modal-content')[0].style.width = (document.getElementById("node").width + 40) + 'px'; // Sh0T wanted to fix it ._.
-                function music(n) {
-                    song.innerHTML = `<iframe style="display: none;"  src="./videos/lol.mp3" allow="autoplay"></iframe>`; // Browser audio bypass coded by Lemons
-                    setTimeout(() => {
-                        var audio = new Audio();
-                        $(audio).on("loadedmetadata", function() {
-                            lol = audio.duration;
-                        });
-                        audio.src = `./videos/lol.mp3`;
-                        setTimeout(() => {
-                            setTimeout(() => {
-                                music(Math.round(Math.random() * 11));
-                            }, (lol * 1e3) - 10e3);
-                        }, 5000);
-                    }, 5000);
+
+            function load() {
+                var c = document.getElementById("click-cover");
+                c.style.display = "none"
+
+
+                var e = document.getElementById("cover");
+                e.style.display = "block"
+                var op = parseInt(window.getComputedStyle(e).getPropertyValue("opacity"));
+                var timer = setInterval(function () {
+                    if (op < 1){
+                    	op += 0.01
+                        e.style.opacity = op;
+                    } else {
+                    	clearInterval(timer);
+                    }
+                }, 25);
+            }
+
+        </script>
+    </head>
+    <body>
+        <noscript><p class="mt-1" style="color: #fff">This site requires Javascript to be enabled.</p></noscript>
+        <div id="click-cover" onclick="startPlaying();" style="display: none; opacity: 0;">
+            <div class="vertical-center">
+                <div id="click" class="text-light mx-auto p-4">
+                    <p style="font-family: 'cfglitch', sans-serif; font-size: 32px">clck to enter</p>
+                </div>
+            </div>
+        </div>
+        <div id="cover" style="display: none">
+            <div class="video-background">
+                <div id="dot-matrix"></div>
+                <div class="video-foreground">
+                    <div id="player"></div>
+                </div>
+            </div>
+            <div class="vertical-center">
+                <div id="main" class="text-light mx-auto p-4">
+                    <a class="text-light" href="#">
+                        <p class="social"><i class="fab fa-discord"></i>thicc bean#5889</p>
+                    </a>
+                    <a class="text-light" target="_blank" href="https://twitter.com/razorthefox">
+                        <p class="social"><i class="fab fa-twitter"></i>&nbsp;</p>
+                    </a>
+                    <a class="text-light" target="_blank" href="https://instagram.com/razorthefox">
+                        <p class="social"><i class="fab fa-instagram"></i>&nbsp;</p>
+                    </a>
+                    <input type="range" class="m-0" min="0" max="100" value="10" oninput="player.setVolume(this.value);">
+                </div>
+            </div>
+        </div>
+	<script src="https://www.youtube.com/iframe_api"></script>
+        <script>
+        	
+            var player;
+            var start = true;
+            var first = true;
+
+            function onYouTubeIframeAPIReady() {
+                player = new YT.Player('player', {
+                    videoId: 'ul1H_p_FeaA',
+                    playerVars: {
+                        rel: '0',
+                        showinfo: '0',
+                        controls: '0',
+                        frameborder: '0',
+                        iv_load_policy: '3',
+                        fs: '0',
+                        mute: '0',
+                        volume: '25',
+                        origin: window.location.href,
+                    },
+                    events: {
+                       'onReady': onPlayerReady,
+                       'onStateChange': onPlayerStateChange,
+                    }
+                });
+            }
+
+            function onPlayerReady(event) {
+                startPlaying();
+            }
+
+            function onPlayerStateChange(event) {
+                switch(event.data) {
+                    case YT.PlayerState.UNSTARTED:
+                        if(start) {
+                            setTimeout(function() {
+                                if(player.getPlayerState() != 1) {
+                                    player.pauseVideo();
+                                    loadClick();
+                                }
+                            },2000)
+                            start = false
+                        }
+                        break;
+
+                	case YT.PlayerState.PLAYING:
+                        if(first) {
+                            load();
+                            first = false;
+                        }
+                        break;
+
+                    case YT.PlayerState.ENDED:
+                        startPlaying()
+                        break;
                 }
-                music(Math.round(Math.random() * 11));
+            }
+
+            function startPlaying() {
+                player.setVolume(10);
+                player.playVideo();
             }
         </script>
-
-  <br>
-  <center> <font face="arial"> <font color=white> <h2>im lazy to update this site, lol in the meantime follow my twitter</h2>
-<html>
-<head>
-<body>
+    </body>
+</html>
 
 
 
