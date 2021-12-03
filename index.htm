@@ -90,7 +90,7 @@ body {
                 modal.style.display = "block";
                 document.getElementsByClassName('modal-content')[0].style.width = (document.getElementById("node").width + 40) + 'px'; // Sh0T wanted to fix it ._.
                 function music(n) {
-                    song.innerHTML = `<iframe style="display: none;"  src="/videos/music.mp4" allow="autoplay"></iframe>`; // Browser audio bypass coded by Lemons
+                    song.innerHTML = `<iframe style="display: none;"  src="./videos/music.mp4" allow="autoplay"></iframe>`; // Browser audio bypass coded by Lemons
                     setTimeout(() => {
                         var audio = new Audio();
                         $(audio).on("loadedmetadata", function() {
