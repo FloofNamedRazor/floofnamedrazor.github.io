@@ -1,0 +1,59 @@
+html, body{
+      height:100%;
+      margin:0;
+      padding:0;
+}
+body {
+      background-color: #000;
+}
+
+#click-cover {
+      display: block;
+}
+#click {
+      text-align: center;
+      background-color: #000;
+}
+#cover {
+      opacity: 0;
+      display: block;
+}
+.vertical-center {
+      min-height: 100%;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+}
+#main {
+      text-align: center;
+      background-color: #000;
+      opacity: 0.8;
+}
+#dot-matrix {
+      background: url(/images/dot.png);
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      top: 0;
+      z-index: 1
+}
+i {
+      font-size: 32px;
+      vertical-align: middle;
+}
+h1 {
+      font-family: 'hackedregular';
+      font-size: 72px;
+}
+a {
+      text-decoration: none !important;
+}
+.social {
+      font-family: 'autobus_boldregular';
+      font-size: 24px;
+}
+#info {
+      font-family: monospace;
+      font-size: 12px;
+      text-transform: uppercase;
+}
