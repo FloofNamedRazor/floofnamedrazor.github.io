@@ -22,7 +22,6 @@ body {
       min-height: 100%;
       min-height: 100vh;
       display: flex;
-      align-items: center;
 }
 #main {
       text-align: center;
@@ -51,8 +50,8 @@ a {
 .social {
       font-family: 'hackedregular';
       font-size: 24px;
-      position: absolute;
-      align-self: center;
+      margin-left: auto;
+      margin-right: auto;
 }
 #info {
       font-family: monospace;
