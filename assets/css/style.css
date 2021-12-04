@@ -50,8 +50,6 @@ a {
 .social {
       font-family: 'hackedregular';
       font-size: 24px;
-      display: inline-block;
-      text-align: center;
 }
 #info {
       font-family: monospace;
