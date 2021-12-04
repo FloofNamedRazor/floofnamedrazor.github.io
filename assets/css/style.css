@@ -18,7 +18,7 @@ body {
       opacity: 0;
       display: block;
 }
-.vertical-center {
+.horizon-center {
       min-height: 100%;
       min-height: 100vh;
       display: flex;
