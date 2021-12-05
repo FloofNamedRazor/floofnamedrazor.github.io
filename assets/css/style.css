@@ -24,7 +24,7 @@ body {
       display: flex;
       align-items: center;
       border: 2px solid black;
-      padding: 10px;
+      padding: 5px;
       border-radius: 15px;
 }
 #main {
@@ -32,7 +32,7 @@ body {
       background-color: #000;
       opacity: 0.8;
       border: 2px solid black;
-      padding: 10px;
+      padding: 5px;
       border-radius: 15px;
 }
 #dot-matrix {
@@ -58,7 +58,7 @@ a {
       font-family: 'hackedregular';
       font-size: 24px;
       border: 2px solid black;
-      padding: 10px;
+      padding: 5px;
       border-radius: 15px;
 }
 #info {
