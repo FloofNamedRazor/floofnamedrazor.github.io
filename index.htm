@@ -122,11 +122,13 @@
             }
 
             function onPlayerReady(event) {
+		    event.target.setPlaybackQuality('hd720');
                 startPlaying();
             }
 
             function onPlayerStateChange(event) {
                 switch(event.data) {
+		       event.target.setPlaybackQuality('hd720');
                     case YT.PlayerState.UNSTARTED:
                         if(start) {
                             setTimeout(function() {
