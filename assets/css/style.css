@@ -28,6 +28,7 @@ body {
       text-align: center;
       background-color: #000;
       opacity: 0.8;
+      border-radius 15px;
 }
 #dot-matrix {
       background: url(/images/dot.png);
