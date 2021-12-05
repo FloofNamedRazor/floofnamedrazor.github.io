@@ -23,13 +23,17 @@ body {
       min-height: 100vh;
       display: flex;
       align-items: center;
-      border-radius 15px;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px;
 }
 #main {
       text-align: center;
       background-color: #000;
       opacity: 0.8;
-      border-radius 15px;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px;
 }
 #dot-matrix {
       background: url(/images/dot.png);
@@ -53,7 +57,9 @@ a {
 .social {
       font-family: 'hackedregular';
       font-size: 24px;
-      border-radius 15px;
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 15px;
 }
 #info {
       font-family: monospace;
