@@ -22,14 +22,14 @@ body {
       min-height: 100%;
       min-height: 100vh;
       display: flex;
-      align-items: center;
+      align-items: auto;
       border: 2px solid black;
       padding: 1px;
       border-radius: 8px;
       box-shadow: 0px 6px 16px 2px rgba(0,0,0,0.61);
 }
 #main {
-      text-align: center;
+      text-align: auto;
       background-color: #000;
       opacity: 0.8;
       border: 2px solid black;
