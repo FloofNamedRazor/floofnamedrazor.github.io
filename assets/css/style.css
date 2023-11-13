@@ -57,6 +57,7 @@ a {
       text-decoration: none !important;
 }
 .social {
+      align-items: auto;
       font-family: 'hackedregular';
       font-size: 24px;
       border: 2px solid black;
